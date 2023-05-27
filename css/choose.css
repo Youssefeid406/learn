@@ -1,0 +1,111 @@
+body {background-color: #2c2c2c;display: flex;
+    align-items: center;justify-content: center;
+    height: 670px;
+}
+
+.container {border-radius: 21px;padding: 1em;background-color: #000000d1;color: white;width: 100%;height: fit-content;
+    box-shadow: 0px 0 19px #7a7a7a;
+}
+
+.name {padding: 1em;font-size: 24px;display: flex;align-items: center;justify-content: center;/* flex-direction: column; */}
+
+
+.quiz {display: flex;font-size: 19px;padding: 0.5em;flex-direction: column;width: 100%;}
+
+.eachquiz {display: flex;flex-direction: row;place-content: space-evenly;}
+
+svg.bi.bi-plus-circle {color: green;
+    transform: translate(-10px, 0px);
+}
+
+a.add {
+    display: flex;
+    align-items: center;
+    text-decoration: none;
+    color: white;
+}
+
+a.addanswers {
+    display: flex;
+    align-items: center;
+    text-decoration: none;
+    color: white;
+}
+
+a.addanswers:hover {
+    display: flex;
+    align-items: center;
+    text-decoration: none;
+    color: darkgreen;
+    transition: ease-in;
+    transition-duration: 0.3s;
+}
+
+a.add:hover {
+    display: flex;
+    align-items: center;
+    text-decoration: none;
+    color: green;
+    transition: ease-in;
+    transition-duration: 0.3s;
+}
+
+
+a.delete {
+    display: flex;
+    align-items: center;
+    text-decoration: none;
+    color: white;
+
+}
+
+
+a.delete:hover {
+    text-decoration:none;
+    color: rgb(194, 3, 3);
+    transition: ease-in;
+    transition-duration: 0.3s;
+
+}
+
+svg.bi.bi-trash-fill {transform: translate(-10px, 0px);color: #ad0505;}
+
+a.grades {text-decoration: none;color: white;display: flex;align-items: center;}
+
+
+a.grades:hover {text-decoration: none;color: #000036;display: flex;align-items: center;
+transition: ease-in;
+transition-duration: 0.3s ;
+}
+
+svg.bi.bi-clipboard2-check {transform: translateX(-10px);color: white;}
+
+.create {display: flex;flex-direction: row;width: 100%;justify-content: flex-end;transform: translateX(-8px);transform: translate(-34px, 10px);}
+
+a {text-decoration: none;color: gold;display: flex;align-items: center;}
+
+a:hover {text-decoration: none;color: white;display: flex;align-items: center;}
+
+table {
+    border-collapse: collapse;
+    width: 100%
+;/* border: none; */}
+
+td,th {
+    
+    padding: 8px;
+  }
+
+  .insttitle {position: absolute;width: 90%;transform: translateY(-300px);font-size: x-large;color: white;font-family: sans-serif;margin-left: -113px;}
+
+  svg.bi.bi-x-circle-fill {transform: translate(-10px, 0px);color: #b50606;}
+
+  a.deletequiz {text-decoration: none;color: white;display: flex;align-items: center;
+    transition: ease-in;
+    transition-duration: 0.3s ;}
+
+    a.deletequiz:hover {text-decoration: none;color: #b50606;display: flex;align-items: center;
+        transition: ease-in;
+        transition-duration: 0.3s ;}
+    
+

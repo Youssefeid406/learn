@@ -1,0 +1,24 @@
+body {background-color: #2c2c2c;display: flex;
+    align-items: center;justify-content: center;
+    height: 685px;
+}
+.container {border-radius: 21px;padding: 1em;background-color: #000000d1;color: white;width: 55em;height: fit-content;box-shadow: 0px 0 19px #7a7a7a;}
+
+table {
+    border-collapse: collapse;
+    width: 100%
+;/* border: none; */}
+
+    td,th {
+        border: 1px solid #ddd;
+        padding: 8px;
+    }
+
+   th {
+    text-align: left;
+    background-color: #2c2c2c;
+    color: white;
+    font-size: 19px;
+}
+
+caption {padding: 10px;font-size: x-large;}

@@ -1,0 +1,51 @@
+body{
+    background-color:white ;
+}
+form.sub-form {
+    text-align: center;
+    color: white;
+    
+    background: #000000d0;
+    margin: 2rem;
+    border: 2px solid #ffca35;
+    padding: 2rem;/* background: beige; */align-items: center;}
+
+label {
+    text-align: center;
+    color: #ffc200;
+    font-size:20px;
+   
+    font-family:sans-serif;
+}
+
+input{
+    text-align: center;
+    font-size: 20px;
+    color: white;
+    margin-bottom: 10px;
+    background: none;
+    padding: 5px;
+    border-bottom: solid #ffc200;
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    border-bottom:none;
+}
+
+input:focus{
+    padding: 5px;
+    margin-top: 5px;
+    color:#ffc200;
+}
+
+h1{
+    color: white;
+    position: relative;
+    text-align: center;
+}
+
+input.sub {background: #ffc200;border-radius: 10px;font-size: medium;color: white;}
+
+
+
+

@@ -1,0 +1,27 @@
+
+body {background-color: #2c2c2c;display: flex;
+    align-items: center;justify-content: center;
+    height: 685px;
+}
+
+.container {border-radius: 21px;padding: 1em;background-color: #000000d1;color: white;width: 55em;height: 22em; box-shadow: 0px 0 19px #7a7a7a;}
+
+.title {flex-direction: column;display: flex;justify-content: center;/* width: 80%; */height: 100%;align-items: center;justify-content: space-evenly;}
+
+.questionchoices {/* align-content: center; */display: flex;flex-direction: row;width: 99%;justify-content: space-evenly;align-items: center;}
+
+select {font-size: 13px;background: #2c2c2c;color: white;border: solid 1px #2c2c2c;border-radius: 5pc;padding: 9px;font-family: sans-serif;}
+
+form {width: 74%;/* height: 17%; *//* border: solid 1px #000036; *//* background-color: #000036; *//* border-radius: 10px; */display: flex;flex-direction: column;/* padding: 14.5px; */}
+
+.answerinput {align-items: center;justify-content: center;display: flex;padding: 1em;flex-direction: row;width: 100%;place-content: space-evenly;}
+
+label {font-size: xx-large;}
+
+input.inbox {width: 74%;background: none;border: none;border-radius: 10px;border-bottom: solid 1px white;height: 32px;font-size: larger;color: white;padding: 0.15em;font-weight: bolder;}
+
+input[type="submit"] {background: #2c2c2c;color: white;padding: 9px;transform: translateY(24px);padding: 1rem;border-radius: 10px;font-size: larger;font-family: sans-serif;}
+
+.check {display: flex;flex-direction: column-reverse;align-items: center;}
+
+

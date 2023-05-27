@@ -1,0 +1,69 @@
+.questionanswer {background-color: #0d0d0d;
+    color: white;
+    margin-bottom: 1em;
+    border-radius: 13px;
+    border: solid;
+     border-color: grey; 
+     border-width: 2.5px;
+}
+
+
+body {
+    background: #222222;
+}
+
+h3 {color: white;font-size: x-large;text-align: center;padding: 1em;}
+
+.question {font-size: larger;font-family: sans-serif;padding: 0.3em;}
+
+.answersclass {
+    font-family: sans-serif;
+    padding: 0.3em;font-size: 17px;
+    border-radius: 10px;
+    margin-bottom: 3px;}
+
+    .answersclass:hover { 
+        color: black;
+        background-color: grey;
+        border: solid 0.8px;
+        font-family: sans-serif;
+        padding: 0.3em;font-size: 17px;
+        border-radius: 10px;
+        margin-bottom: 3px;
+        font-weight: 600;
+        border-color: black;
+    }
+
+form {display: flex;flex-direction: column;}
+
+
+
+    /* .answersclass:hover { 
+        background-color: rgb(192, 192, 253);
+    border: solid 0.5px rgb(250, 217, 68);
+    font-family: sans-serif;
+    padding: 0.3em;font-size: 17px;
+    border-radius: 10px;
+    margin-bottom: 3px;} */
+
+    .inputsubmit input {
+        font-family: sans-serif;
+        border: solid;
+    background: none;color: white;font-size: 25px;border: solid 3px black;border-radius: 11px;padding: 0.3em;}
+
+    .inputsubmit {display: flex;align-self: center;align-items: center; font-family: sans-serif;}
+
+    .inputsubmit input:hover {
+        font-weight:500;
+        font-family: sans-serif;
+        border: solid;
+        color: white;
+    background-color: black
+    ;
+    font-size: 25px;
+    border: solid 3px black;
+    border-radius: 11px;
+    padding: 0.3em;
+    transition: ease-in;
+    transition-duration: 0.3s;
+}

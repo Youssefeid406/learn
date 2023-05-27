@@ -1,0 +1,20 @@
+body {
+    display: grid;align-items: center;align-content: center;justify-content: center;background-color: #2c2c2c;}
+
+.container {display: flex;background-color: #020202;color: white;width: 50em;height: 20em;align-items: center;border-radius: 25px;}
+
+
+
+.score {align-self: center;font-size: 30px;text-align: center;width: 100%;}
+
+
+.gobac {text-align: end;top: 1em;position: inherit;transform: translate(-21px, 112px);}
+
+a 
+{text-decoration: none;color: white;font-size: 19px;font-family: sans-serif;}
+
+a:hover {text-decoration: none;
+    color: Gold;font-size: 19px;
+    font-family: sans-serif;
+
+}
